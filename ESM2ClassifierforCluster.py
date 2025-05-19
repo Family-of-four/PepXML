@@ -134,9 +134,8 @@ def main(args):
                     avg_train_loss = total_loss / len(train_loader)
                     logging.info(f"Fold {fold + 1}, Epoch {epoch + 1}/{args.epochs}, Training Loss: {avg_train_loss:.4f}")
 
-                # 预测验证集
-                val_predictions = predict(model, test_loader, device)
-                all_predictions[test_id] = val_predictions
+                test_predictions = predict(model, test_loader, device)
+                all_predictions[test_id] = test_predictions
 
                 # 保存模型权重
                 cluster_model_dir = os.path.join(args.model_dir, f"cluster_{cluster_id}")

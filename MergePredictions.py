@@ -15,7 +15,6 @@ import pandas as pd
 def merge_predictions(args):
     """
     合并所有簇的预测结果文件，生成包含所有多肽及其标签预测概率的单一文件，保证多肽唯一。
-    假设每个簇的标签互补，预测文件不包含 true_{标签} 列，直接合并各簇的预测值。
 
     参数:
         prediction_dir (str): 预测结果文件目录

@@ -1,0 +1,7 @@
+2025-04-28 03:25:37,055 - INFO - Reading label embeddings from generate_data/label_embeddings.csv
+2025-04-28 03:25:37,075 - INFO - Label: 854, embeddings with shape: (854, 100)
+2025-04-28 03:25:37,075 - INFO - Performing K-Means clustering with k=10
+2025-04-28 03:25:37,934 - INFO - Clustering completed.
+2025-04-28 03:25:37,934 - INFO - Creating DataFrame for labels and cluster labels
+2025-04-28 03:25:37,939 - INFO - Cluster labels saved to generate_data/labels_clusters.csv
+2025-04-28 03:25:37,939 - INFO - Run time: 0.88s

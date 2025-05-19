@@ -1,0 +1,16 @@
+2025-04-28 03:32:22,294 - INFO - Loading CSV files...
+2025-04-28 03:32:22,365 - INFO - Parsing labels_clusters.csv...
+2025-04-28 03:32:22,373 - INFO - Parsing label_matrix.csv...
+2025-04-28 03:32:22,906 - INFO - Grouping peptides-labels by clusters...
+2025-04-28 03:32:45,782 - INFO - Generating cluster files...
+2025-04-28 03:32:47,616 - INFO - Cluster 4 data saved to generate_data/cluster_data/cluster_4_matrix.csv
+2025-04-28 03:32:49,690 - INFO - Cluster 2 data saved to generate_data/cluster_data/cluster_2_matrix.csv
+2025-04-28 03:32:51,880 - INFO - Cluster 8 data saved to generate_data/cluster_data/cluster_8_matrix.csv
+2025-04-28 03:32:53,613 - INFO - Cluster 0 data saved to generate_data/cluster_data/cluster_0_matrix.csv
+2025-04-28 03:32:55,405 - INFO - Cluster 1 data saved to generate_data/cluster_data/cluster_1_matrix.csv
+2025-04-28 03:32:57,052 - INFO - Cluster 5 data saved to generate_data/cluster_data/cluster_5_matrix.csv
+2025-04-28 03:32:58,860 - INFO - Cluster 9 data saved to generate_data/cluster_data/cluster_9_matrix.csv
+2025-04-28 03:33:00,717 - INFO - Cluster 3 data saved to generate_data/cluster_data/cluster_3_matrix.csv
+2025-04-28 03:33:02,400 - INFO - Cluster 6 data saved to generate_data/cluster_data/cluster_6_matrix.csv
+2025-04-28 03:33:04,144 - INFO - Cluster 7 data saved to generate_data/cluster_data/cluster_7_matrix.csv
+2025-04-28 03:33:04,359 - INFO - Run time: 42.0647

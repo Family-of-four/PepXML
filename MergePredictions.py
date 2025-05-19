@@ -19,16 +19,16 @@ def merge_predictions(args):
 
     参数:
         prediction_dir (str): 预测结果文件目录
-        label_matrix_path (str): 原始标签矩阵文件路径
+        label_matrix_file (str): 原始标签矩阵文件路径
         output_path (str): 合并预测结果输出路径
     """
     # 读取原始标签矩阵，获取所有多肽和标签
     try:
-        label_df = pd.read_csv(args.label_matrix_path)
+        label_df = pd.read_csv(args.label_matrix_file)
         if 'Sequences' not in label_df.columns:
-            raise ValueError(f"{args.label_matrix_path} 缺少 'Sequences' 列")
+            raise ValueError(f"{args.label_matrix_file} 缺少 'Sequences' 列")
     except Exception as e:
-        logging.error(f"读取 {args.label_matrix_path} 失败: {str(e)}")
+        logging.error(f"读取 {args.label_matrix_file} 失败: {str(e)}")
         return
 
     # 获取所有多肽和标签
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Merge predictions from multiple clusters into a single file.")
     parser.add_argument('--prediction_dir', type=str, default="generate_data/cluster_pre_data",
                         help='The directory of the prediction results files.')
-    parser.add_argument('--label_matrix_path', type=str, default="datasets/label_matrix.csv",
+    parser.add_argument('--label_matrix_file', type=str, default="datasets/label_matrix.csv",
                         help='The path to the original label matrix file, which contains all peptides and labels.')
     parser.add_argument('--output_path', type=str, default="generate_data/merged_predictions.csv",
                         help='The path to save the merged predictions file.')

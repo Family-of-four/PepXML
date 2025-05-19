@@ -1,0 +1,855 @@
+Label,Cluster
+Botrytis cinerea,4
+Cladosporium sphaerospermum,4
+Fusarium culmorum,4
+Neurospora crassa,4
+Leptosphaeria maculans,4
+Penicillium digitatum,4
+Trichoderma viride,4
+Zymoseptoria tritici,4
+Verticillium albo-atrum,4
+Bacillus subtilis,2
+Alternaria brassicicola,4
+Salmonella enterica,8
+Escherichia coli,8
+Listeria innocua,0
+Micrococcus luteus,8
+Streptococcus pyogenes,2
+Bacillus megaterium,2
+Staphylococcus warneri,2
+Bacillus coagulans,0
+Enterococcus faecium,0
+Lactiplantibacillus plantarum,0
+Latilactobacillus sakei,0
+Lactococcus garvieae,1
+Listeria monocytogenes,0
+Listeria ivanovii,0
+Pediococcus pentosaceus,0
+Aspergillus niger,4
+Bipolaris sorokiniana,4
+Fusarium oxysporum,4
+Fusarium graminearum,4
+Fusarium avenaceum,4
+Neocamarosporium betae,4
+Pythium debaryanum,5
+Fusarium solani,4
+Heterobasidion annosum,4
+Pseudomonas aeruginosa,8
+Stenotrophomonas maltophilia,2
+Achromobacter xylosoxidans,2
+Mannheimia haemolytica,1
+Bibersteinia trehalosi,2
+Pasteurella multocida,9
+Klebsiella pneumoniae,8
+Corynebacterium pseudotuberculosis,2
+Staphylococcus aureus,8
+Aggregatibacter actinomycetemcomitans,2
+Fusobacterium nucleatum,2
+Porphyromonas gingivalis,2
+Peptostreptococcus micros,2
+Actinomyces naeslundii,2
+Actinomyces israelii,2
+Streptococcus sanguinis,2
+Streptococcus mutans,2
+Candida tropicalis,3
+Candida parapsilosis,3
+Candida krusei,3
+Candida glabrata,3
+Candida albicans,3
+Burkholderia thailandensis,2
+Bacillus anthracis,2
+Aerococcus viridans,9
+Enterococcus faecalis,8
+Staphylococcus haemolyticus,2
+Vibrio harveyi,1
+Vibrio alginolyticus,1
+Vibrio penaeicida,1
+Vibrio vulnificus,1
+Salmonella typhimurium,9
+Enterobacter cloacae,2
+Pectobacterium carotovorum,4
+Fusarium haematococcum,4
+Aspergillus fumigatus,9
+Saccharomyces cerevisiae,2
+Aeromonas hydrophila,1
+Vibrio anguillarum,1
+Streptococcus pneumoniae,2
+Serratia marcescens,2
+Pseudomonas putida,2
+Cryptococcus neoformans,9
+Pyricularia grisea,3
+Aspergillus terreus,3
+Geotrichum candidum,3
+Trichosporon beigelii,2
+HIV-1,3
+Staphylococcus epidermidis,2
+Jurkat T-cell leukemia,9
+Lactococcus lactis,0
+Staphylococcus intermedius,8
+Staphylococcus pseudintermedius,2
+SARS-CoV,6
+MERS-CoV,6
+HCoV,6
+Vesicular Stomatitis Virus (VSV),6
+Human hepatocellular carcinoma,7
+Human lung adenocarcinoma,7
+Porcine epidemic diarrhea virus (PEDcoV),5
+Feline Coronavirus (FCoV),6
+Aliivibrio fischeri,8
+Burkholderia multivorans,8
+Vibrio tasmaniensis,8
+Vibrio crassostreae,8
+Vibrio orientalis,8
+Vibrio breoganii,8
+Corynebacterium stationis,8
+Microbacterium maritypicum,8
+Staphylococcus carnosus,0
+Burkholderia cepacia,2
+Acinetobacter baumannii,8
+Fusarium verticillioides,4
+Aspergillus flavus,3
+Curvularia geniculata,3
+Penicillium chrysogenum,3
+Vibrio cholerae,1
+Proteus mirabilis,2
+Klebsiella aerogenes,2
+Vibrio parahaemolyticus,1
+Vibrio splendidus,1
+Acinetobacter sp.,2
+Klebsiella sp.,8
+Providencia stuartii,8
+Pichia pastoris,9
+Cryptocaryon irritans,1
+Bacillus cereus,0
+Streptococcus salivarius,2
+Streptomyces griseus,2
+Streptomyces scabiei,2
+Alcaligenes faecalis,2
+Ralstonia solanacearum,4
+Cutibacterium acnes,2
+Rat pheochromocytoma,7
+Human breast adenocarcinoma,7
+Murine macrophage cells,2
+Ascochyta medicaginicola,4
+Rhizoctonia solani,4
+Fusarium tricinctum,4
+Xanthomonas alfalfae,4
+Pseudomonas syringae,4
+Batrachochytrium dendrobatidis,8
+Bacillus licheniformis,2
+Serratia rubidaea,8
+Psychrobacter faecalis,8
+Corynebacterium glutamicum,9
+Carnobacterium divergens,5
+Carnobacterium gallinarum,0
+Carnobacterium maltaromaticum,0
+Carnobacterium mobile,0
+Enterococcus durans,0
+Listeria grayi,0
+Listeria seeligeri,0
+Human colon adenocarcinoma,7
+Pseudomonas sp.,8
+Human acute monocytic leukemia,3
+Xanthomonas campestris,4
+Erwinia amylovora,2
+Human cervical carcinoma,7
+Human myelogenous leukemia,3
+Human pancreatic adenocarcinoma,7
+Xanthomonas arboricola,2
+Xanthomonas fragariae,2
+Penicillium expansum,9
+Bacillus thuringiensis,2
+Feline immunodeficiency virus (FIV),3
+Chlamydia trachomatis,3
+Acholeplasma laidlawii,9
+Mycoplasma gallisepticum,9
+Spiroplasma citri,9
+Spiroplasma floricola,9
+Spiroplasma melliferum,9
+Franconibacter helveticus,9
+Staphylococcus xylosus,2
+SARS-CoV-2,6
+Clavibacter michiganensis,4
+Sinorhizobium meliloti,9
+Aspergillus versicolor,4
+Trichophyton mentagrophytes,9
+Penicillium crustosum,1
+Bacillus sp.,2
+Yarrowia lipolytica,3
+Candida inconspicua,3
+Candida lusitaniae,2
+Cryptococcus gattii,3
+Verticillium dahliae,4
+Berkeleyomyces basicola,5
+Aspergillus nidulans,3
+Puccinia coronata,3
+Puccinia sorghi,3
+Colletotrichum graminicola,4
+Aspergillus parasiticus,3
+Human histiocytic lymphoma,3
+Candida auris,3
+Human prostate adenocarcinoma,7
+Rhodococcus rhodochrous,8
+Didymella arachidicola,3
+Mycobacterium phlei,8
+Proteus vulgaris,2
+Helicobacter pylori,0
+Alternariaster helianthi,4
+Ceratocystis paradoxa,4
+Cercospora nicotianae,4
+Sclerotinia sclerotiorum,5
+Phytophthora cryptogea,4
+Phytophthora parasitica,4
+Phytophthora infestans,4
+Haemophilus influenzae,2
+Nocardia asteroides,2
+Staphylococcus saprophyticus,2
+Lacticaseibacillus paracasei,0
+Saprolegnia parasitica,1
+Latilactobacillus curvatus,0
+Limosilactobacillus fermentum,0
+Clostridium sporogenes,0
+Clostridium tyrobutyricum,0
+Propionibacterium sp.,0
+Acidipropionibacterium acidipropionici,0
+Levilactobacillus brevis,2
+Lapidilactobacillus dextrinicus,0
+Aeromonas salmonicida,1
+Carnobacterium funditum,1
+Human malignant melanoma,9
+Corynebacterium jeikeium,9
+Zygosaccharomyces bailii,5
+Zygosaccharomyces rouxii,5
+Debaryomyces hansenii,5
+Shigella dysenteriae,2
+Burkholderia cenocepacia,3
+Mycobacterium tuberculosis,7
+Human renal adenocarcinoma,7
+Agrobacterium tumefaciens,4
+Agrobacterium rhizogenes,8
+Curtobacterium flaccumfaciens,4
+Pyricularia oryzae,5
+Trichophyton rubrum,9
+Shigella flexneri,2
+Streptococcus iniae,1
+Tetrahymena pyriformis,1
+Streptococcus agalactiae,0
+Staphylococcus sp.,2
+HIV,6
+Shigella sonnei,2
+Edwardsiella piscicida,1
+Vibrio campbellii,1
+Burkholderia stabilis,8
+Pseudocercospora eumusae,4
+Phoma exigua,4
+Pythium ultimum,4
+Trichoderma hamatum,4
+Moraxella catarrhalis,8
+Mycobacterium vaccae,7
+Alternaria solani,4
+Loigolactobacillus coryniformis,0
+Pediococcus acidilactici,0
+Leuconostoc mesenteroides,0
+Leuconostoc lactis,0
+Yersinia enterocolitica,0
+Morganella morganii,8
+Aeromonas sobria,1
+Pseudomonas fluorescens,8
+Elizabethkingia meningoseptica,9
+Microsporum canis,5
+Bacillus pumilus,0
+Lacticaseibacillus rhamnosus,0
+Streptococcus mitis,2
+Alternaria alternata,4
+Curvularia lunata,5
+Streptococcus suis,2
+Proteus hauseri,7
+HSV-1,9
+Alternaria longipes,4
+Ascochyta pisi,4
+Aspergillus ustus,4
+Rhizopus oryzae,7
+Streptococcus group,2
+Clostridium perfringens,8
+Clostridium botulinum,0
+Scheffersomyces stipitis,9
+Kluyveromyces marxianus,9
+Pachysolen tannophilus,9
+Candida fructus,9
+Candida wickerhamii,9
+Trichoderma harzianum,9
+Lomentospora prolificans,7
+Niallia circulans,0
+Geobacillus stearothermophilus,0
+Paenibacillus macerans,0
+Listeria welshimeri,0
+Enterococcus hirae,0
+Lactobacillus sp.,0
+Photobacterium damselae,1
+Ichthyophthirius multifiliis,1
+Mycobacterium fortuitum,2
+Corynebacterium diphtheriae,2
+Aliivibrio logei,1
+Aliivibrio salmonicida,1
+Cronobacter sakazakii,3
+Exiguobacterium aestuarii,8
+Bacillus algicola,8
+Vibrio coralliilyticus,8
+Pseudomonas plecoglossicida,1
+Staphylococcus simulans,8
+Vibrio aestuarianus,1
+Vibrio nigripulchritudo,1
+Propionibacterium freudenreichii,8
+Acidipropionibacterium jensenii,0
+Acidipropionibacterium thoenii,0
+Trypanosoma brucei,9
+Malassezia furfur,1
+Yersinia ruckeri,1
+Flavobacterium psychrophilum,1
+Campylobacter jejuni,8
+Corynebacterium renale,8
+Edwardsiella ictaluri,1
+Aeromonas veronii,1
+Pestalotia diospyri,4
+Colletotrichum orbiculare,4
+Lacticaseibacillus casei,1
+Phycomyces blakesleeanus,4
+Pyrenophora tritici-repentis,4
+Parastagonospora nodorum,4
+Mouse skin melanoma,7
+Human skin melanoma,7
+Trichosporon sp.,9
+Candida guilliermondii,9
+Leishmania amazonensis,9
+Citrobacter freundii,2
+Bordetella pertussis,8
+HIV-2,3
+Simian immunodeficiency virus (SIV),3
+Human adenocarcinoma,3
+Human T-cell leukemia,3
+Aureobasidium pullulans,9
+Phytophthora litchii,4
+Enterococcus sp.,8
+Salmonella typhi,8
+Pseudomonas viridiflava,8
+Rhodococcus fascians,8
+Pseudomonas tolaasii,8
+Xanthomonas perforans,8
+Brenneria nigrifluens,8
+Xanthomonas translucens,8
+Xanthomonas oryzae,2
+Mycobacterium smegmatis,2
+Cov,6
+Murine Hepatitis Virus (MHV/M-CoV),6
+Human parainfluenza virus 3 ( HPIV3),6
+Boeremia lycopersici,4
+Colletotrichum gossypii,4
+Colletotrichum lagenaria,4
+Phytophthora capsici,4
+Colletotrichum gloeosporioides,4
+Edwardsiella tarda,1
+Human lymphoblastic leukemia,7
+Human bladder carcinoma,7
+Hepatitis C virus (HCV),6
+Lactobacillus delbrueckii,0
+Ligilactobacillus salivarius,0
+Bacillus amyloliquefaciens,0
+Streptococcus equinus,2
+Pichia etchellsii,9
+Rhodotorula mucilaginosa,9
+Leishmania major,9
+Brucella suis,8
+Perkinsus marinus,8
+Corynebacterium bovis,2
+Pseudomonas amygdali,2
+Streptococcus sp.,8
+Salmonella sp.,2
+Planococcus citreus,1
+Streptococcus alactolyticus,3
+Paenibacillus larvae,8
+Aspergillus brasiliensis,9
+Klebsiella oxytoca,2
+Vibrio brasiliensis,1
+Human Influenza A Virus H1N1,6
+Streptococcus dysgalactiae,2
+Cryptococcus cuniculi,8
+Acinetobacter calcoaceticus,2
+Mycobacterium avium,2
+Plasmodium falciparum,7
+Ascochyta rabiei,3
+Metarhizium anisopliae,4
+Vibrio shiloi,8
+Yersinia pseudotuberculosis,9
+Jonesia denitrificans,8
+Staphylococcus auricularis,8
+Acinetobacter bohemicus,8
+Yersinia mollaretii,8
+Alternaria tenuissima,4
+Fusarium fujikuroi,3
+Neisseria gonorrhoeae,2
+Ureaplasma canigenitalium,8
+Ureaplasma urealyticum,8
+Vibrio metschnikovii,9
+Pantoea agglomerans,2
+Serratia sp.,1
+Vibrio sp.,1
+Staphylococcus sciuri,8
+Listeria fleischmannii,4
+Theileria equi,9
+Bacillus atrophaeus,2
+Xenorhabdus nematophila,2
+Xanthomonas vesicatoria,2
+Leishmania donovani,2
+Human promyelocytic leukemia,7
+Jurkat cells,3
+Bifidobacterium longum,2
+Lactobacillus acidophilus,2
+Pseudomonas otitidis,2
+Pseudomonas stutzeri,2
+Vibrio fluvialis,1
+Flavobacterium columnare,1
+Botrytis elliptica,4
+Colletotrichum acutatum,5
+Vibrio ichthyoenteri,1
+Vibrio litoralis,1
+Pythium sp.,3
+Colletotrichum sp.,1
+Avibacterium avium,2
+Schizosaccharomyces pombe,9
+Fusarium sp.,5
+Alternaria sp.,1
+Cercospora beticola,4
+Colletotrichum lindemuthianum,4
+Venturia inaequalis,5
+Campylobacter coli,8
+Campylobacter lari,8
+Frog Virus,9
+Channel Catfish Virus,9
+Slime mold,8
+Providencia rettgeri,2
+Leishmania panamensis,9
+Stenocarpella maydis,4
+Trichoderma album,4
+Bacteroides sp.,8
+Shigella sp.,8
+Delftia acidovorans,9
+Cronobacter muytjensii,8
+Mycobacterium bovis,7
+Borreliella burgdorferi,8
+Human Influenza A Virus H3N2,6
+Hepatitis B virus (HBV),6
+Streptococcus gordonii,1
+Clostridioides difficile,8
+Mucor hiemalis,5
+Aeromonas caviae,9
+Nocardia brasiliensis,9
+Trichophyton simii,9
+Streptococcus uberis,0
+Pythium aphanidermatum,4
+Pseudomonas cichorii,4
+Burkholderia glumae,4
+Rous sarcoma virus,3
+Candida dubliniensis,3
+Human squamous lung carcinoma,7
+Human gastric adenocarcinoma,7
+Human melanoma,7
+Rhodotorula sp.,9
+Xanthomonas axonopodis,9
+Malassezia sympodialis,2
+Lysinibacillus fusiformis,2
+Paracoccus denitrificans,7
+Trypanosoma cruzi,9
+Human B-lymphoma,7
+Gibberella saubinetii,3
+Human chronic B cell leukemia,2
+Gardnerella vaginalis,0
+Lactobacillus gasseri,0
+Limosilactobacillus vaginalis,0
+Streptococcus lutetiensis,2
+Streptococcus oralis,2
+Japanese encephalitis virus (JEV),2
+Respiratory syncytial virus (RSV),6
+Human myeloblastic leukemia,9
+Human neuroblastoma,7
+Ehrlich's ascites carcinoma,9
+Cladosporium herbarum,2
+Pseudomonas corrugata,2
+Candida kefyr,3
+Arthrobacter globiformis,3
+Brenneria salicis,4
+Trichomonas vaginalis,9
+Mycobacterium kansasii,0
+Pseudoalteromonas carrageenovora,9
+Pseudomonas alginovora,9
+Cytophaga drobachiensis,9
+Leishmania braziliensis,9
+Papiliotrema laurentii,3
+Sphingobacterium siyangense,3
+Saccharibacillus kuerlensis,3
+Pseudomonas luteola,3
+Human glioblastoma,7
+Enterococcus gallinarum,8
+Enterococcus casseliflavus,8
+Zika virus (ZIKV),6
+Pseudomonas donghuensis,8
+Bovine herpesvirus 1 (BoHV-1),5
+Pseudorabies Virus (PRV),5
+Newcastle Disease Virus (NDV),5
+Mesomycoplasma hyorhinis,9
+Mycoplasmopsis fermentans,9
+Spiroplasma apis,9
+Leishmania mexicana,9
+Human cytomegalovirus (HCMV),1
+Sclerotinia trifoliorum,4
+Streptococcus anginosus,0
+Arcyria cinerea,1
+Rhodococcus sp.,8
+Mouse breast cancer,1
+DENV-2,6
+DENV-1,6
+DENV-3,6
+DENV-4,6
+Yellow fever virus (YFV),6
+Russian spring-summer encephalitis virus (RSSEV),6
+Central European encephalitis virus (CEEV),6
+Stenotrophomonas sp.,2
+Pseudomonas mendocina,1
+Pseudomonas vulgaris,8
+HSV-2,3
+Leishmania infantum,3
+Cladosporium sp.,9
+Acinetobacter junii,3
+Infectious bronchitis virus (IBV/ACoV),6
+Yersinia pestis,7
+Acinetobacter ursingii,8
+Acinetobacter guillouiae,8
+Acinetobacter modestus,8
+Acinetobacter septicus,8
+Veillonella atypica,2
+Haemonchus contortus,7
+Trichostrongylus colubriformis,7
+Jurkat cancer cells,3
+Vibrio ordalii,1
+Staphylococcus capitis,8
+Lactobacillus gallinarum,0
+Limosilactobacillus frumenti,0
+Limosilactobacillus reuteri,8
+Limosilactobacillus mucosae,0
+Ralstonia pickettii,2
+Phomopsis azadirachtae,4
+Ebola virus,8
+Marburg virus,8
+Sudan virus,8
+Chikungunya virus (CHIKV),8
+Human osteosarcoma,8
+Chaetomium globosum,3
+Human myeloma cells,7
+Chronic lymphocytic leukemia,7
+Ovarian carcinoma,7
+Penicillium roqueforti,9
+Kocuria rhizophila,0
+Corynebacterium striatum,0
+Cryptococcus deuterogattii,2
+Human Influenza A Virus H7N9,6
+Human rhinovirus (HRV),6
+Human fibrosarcoma,1
+Ramulariopsis gossypii,4
+Trichoderma asperellum,4
+Moniliophthora perniciosa,4
+Plasmodium berghei,8
+Bovine leukaemia virus (BLV),2
+Human astrocytoma,7
+Rat leukemia cells,7
+Human oral squamous carcinoma,8
+Paenibacillus alvei,9
+Shewanella putrefaciens,1
+Murine fibrosarcoma,7
+Human neck cancer,6
+Human head cancer,6
+Aichi virus,9
+Acinetobacter hebeiensis,3
+Human multiple myeloma,7
+Clavibacter fangii,4
+Corynebacterium xerosis,2
+Neisseria meningitidis,8
+Neisseria lactamica,8
+Neisseria cinerea,8
+Citrobacter sp.,8
+Penicillium urticae,3
+Physalospora piricola,3
+Bordetella bronchiseptica,2
+Brucella abortus,7
+Mycobacterium marinum,7
+Mycoplasma hominis,8
+Acute myeloid leukemia,7
+Rabies virus (RABV),8
+Human epidermoid carcinoma,7
+Lymantria dispar,2
+Drechslera brizae,4
+Rhizoctonia cerealis,4
+Corynebacterium simulans,8
+Bacillus circulans,7
+Human rhabdomyosarcoma,7
+Lichtheimia corymbifera,7
+Rhizomucor sp.,7
+Rhizopus microsporus,7
+Streptococcus sobrinus,1
+Mycoplasma mycoides,2
+Bacteroides fragilis,2
+Prevotella melaninogenica,2
+Fusobacterium varium,2
+Clostridium tertium,2
+Clostridium septicum,2
+Peptoniphilus asaccharolyticus,2
+Peptostreptococcus anaerobius,2
+Cytophaga aquatilis,1
+Leucothrix mucor,1
+Aspergillus ochraceus,1
+Fulvia fulva,1
+Rhodococcus equi,9
+Trypanosoma evansi,9
+Trypanosoma equiperdum,9
+Streptomyces aureus,8
+Weissella viridescens,0
+Clostridium pasteurianum,8
+Corynebacterium spheniscorum,8
+Mycobacterium abscessus,7
+Aspicilia cinerea,1
+Enterobacter spp.,8
+Rhizopus stolonifer,5
+Athelia rolfsii,9
+Thanatephorus cucumeris,8
+Alternaria dauci,4
+Stemphylium sp.,5
+Sporothrix schenckii,1
+Actinomyces viscosus,1
+Legionella bozemanae,3
+Legionella dumoffii,3
+Legionella feeleii,3
+Legionella longbeachae,3
+Legionella micdadei,3
+Legionella oakridgensis,3
+Legionella pneumophila,3
+Foot-and-Mouth Disease virus,0
+Lactobacillus crispatus,0
+Lactobacillus jensenii,0
+Streptococcus intermedius,0
+Streptococcus pasteurianus,0
+Enterococcus avium,0
+Actinobaculum schaalii,0
+Microbacterium oxydans,8
+Sporosarcina ureae,8
+Lelliottia amnigena,8
+Kluyvera cryocrescens,8
+Trypanosoma carassii,1
+Human liver carcinoma,7
+Human ovarian adenocarcinoma,7
+Acetobacterium wieringae,2
+Tetragenococcus halophilus,2
+Beauveria bassiana,2
+Penicillium sp.,2
+Bacillus simplex,1
+Aeromonas bestiarum,8
+Proteus myxofaciens,3
+Vibrio tapetis,1
+Miamiensis avidus,1
+Vibrio scophthalmi,1
+Trichoderma virens,4
+Batrachochytrium salamandrivorans,8
+Janthinobacterium lividum,8
+Chryseobacterium indologenes,8
+Kluyveromyces lactis,3
+Mucor circinelloides,3
+Chromobacterium violaceum,7
+Human metastatic melanoma,9
+Pseudomonas haemolytica,8
+Streptococcus milleri,2
+Francisella tularensis,7
+Brucella melitensis,7
+Saprolegnia sp.,5
+Corynebacterium sp.,2
+Bacteroides thetaiotaomicron,2
+Veillonella parvula,2
+Aeromonas intestinalis,1
+Aeromonas punctata,1
+Psychrobacter immobilis,1
+Dermacoccus nishinomiyaensis,8
+Psychrobacter sp.,8
+Burkholderia pseudomallei,7
+Human lymphoma,7
+Flavobacterium sp.,8
+Lacinutrix algicola,8
+Shewanella oneidensis,2
+Beauveria sp.,2
+Acinetobacter lwoffii,2
+Candida boidinii,0
+Hafnia alvei,8
+Prevotella oralis,8
+Moraxella osloensis,8
+Vibrio diabolicus,8
+Corynebacterium accolens,8
+Staphylococcus hominis,8
+Staphylococcus cohnii,8
+Burkholderia mallei,7
+Xanthomonas citri,9
+Methylobacterium sp.,9
+Human mammary carcinoma,7
+Alkalihalobacillus halodurans,2
+Talaromyces stipitatus,2
+Trichoderma longibrachiatum,2
+Streptococcus constellatus,7
+Psychrobacter cibarius,8
+Alternaria brassicae,4
+Azotobacter vinelandii,8
+Mycoplasma genitalium,9
+Piscirickettsia salmonis,1
+Malassezia pachydermatis,8
+Shigella boydii,2
+Citrobacter koseri,2
+Neisseria mucosa,2
+Pluralibacter gergoviae,2
+Alkalihalobacillus alcalophilus,2
+West Nile virus,6
+Measles/Rubeola Virus,6
+Adenovirus,6
+Borna disease virus (BDV),6
+Coxsackie virus,6
+Lymphocytic choriomeningitis virus (LCMV),6
+Human Rotavirus,6
+Vaccinia virus (VACV),6
+Aspergillus oryzae,4
+Candida viswanathii,1
+Dickeya zeae,4
+Agrobacterium vitis,4
+Phytophthora nicotianae,3
+Candida sp.,9
+Lysinibacillus sphaericus,8
+Streptococcus thermophilus,8
+Microsporum gypseum,9
+Mycobacterium wolinskyi,2
+Mammaliicoccus lentus,9
+Cupriavidus necator,2
+Acinetobacter johnsonii,8
+Paraburkholderia silvatlantica,8
+Oral epidermoid carcinoma,7
+Alternaria radicina,4
+Human tongue carcinoma,8
+Meyerozyma guilliermondii,2
+Pseudomonas caryophylli,2
+Colletotrichum truncatum,2
+Human leukemia,7
+Human CNS cancer,7
+Human Influenza A Virus H5N1,6
+Leishmania tropica,9
+Glaesserella parasuis,8
+Human acute promyelocytic leukemia,8
+Paecilomyces farinosus,9
+Human nasopharyngeal carcinoma,7
+Mouse lymphoma,7
+Aspergillus awamori,3
+Prevotella intermedia,9
+Parvimonas micra,9
+Candida buinensis,3
+Streptococcus parauberis,1
+Mouse lymphocytic leukemia,3
+Human endometrial adenocarcinoma,3
+Histoplasma capsulatum,9
+Bifidobacterium adolescentis,8
+Paracoccidioides brasiliensis,0
+Paracoccidioides lutzii,9
+Blautia coccoides,8
+Salmonella Bazenheid,9
+Salmonella bonariensis,9
+Finegoldia magna,8
+Candida utilis,2
+Transmissible gastroenteritis coronavirus (TGEV/PCoV),2
+Human T lymphoma cells,7
+Plasmodium gallinaceum,9
+Zymomonas mobilis,2
+Pseudomonas oleovorans,8
+Mycobacterium chelonae,7
+Bacillus mycoides,8
+Enterobacter asburiae,8
+Penicillium citrinum,8
+Alicyclobacillus acidoterrestris,0
+Eimeria acervulina,3
+Eimeria tenella,3
+Priestia flexa,0
+Porcine reproductive and respiratory syndrome virus (PRRSV),2
+Candida haemulonii,3
+Candida rugosa,3
+Clostridium spiroforme,8
+Fusobacterium necrophorum,8
+Penicillium oxalicum,8
+Staphylococcus caprae,8
+Staphylococcus lugdunensis,8
+Brachyspira hyodysenteriae,8
+Mouse Myeloid Leukemia,3
+Coprinus comatus,3
+Micrococcus flavus,8
+Human Influenza A Virus H7N1,4
+Duck Hepatitis B Virus (DHBV),2
+Streptomyces coelicolor,8
+Wickerhamomyces anomalus,8
+Phytophthora palmivora,5
+Basidiobolus microsporus,5
+Conidiobolus coronatus,5
+Mycotypha africana,5
+Rhizomucor miehei,5
+Paecilomyces variotii,5
+Ascodesmis sphaerospora,5
+Monilinia fructicola,5
+Alternaria kikuchiana,5
+Didymella pinodes,5
+Pleospora herbarum,5
+Stemphylium sarciniforme,5
+Schizophyllum commune,5
+Gaeumannomyces graminis,5
+Brochothrix thermosphacta,5
+Byssochlamys fulva,5
+Mouse myeloma,9
+African green monkey kidney cancer,9
+Human squamous carcinoma,9
+Cryptococcus albidus,2
+Stachybotrys chartarum,2
+Murine squamous cell carcinoma,7
+Colletotrichum lini,0
+Mouse neuroblastoma cells,7
+Paenibacillus polymyxa,8
+Pasteurella aerogenes,8
+Corynebacterium auriscanis,8
+Vibrio mimicus,1
+Mouse B-cell lymphoma,7
+Penicillium italicum,3
+Porcine Parvovirus (PPV),5
+Infectious Bursal Disease Virus (IBDV),5
+Mycoplasmopsis pulmonis,5
+Trueperella pyogenes,9
+Microsporum audouinii,9
+Dalton's lymphoma ascites,9
+Rothia mucilaginosa,2
+Rothia dentocariosa,2
+Eubacterium sp.,2
+Staphylococcus delphini,2
+Pasteurella canis,8
+Streptococcus canis,8
+Penicillium pinophilum,9
+Paraclostridium bifermentans,8
+Bacteroides xylanisolvens,8
+Phocaeicola dorei,8
+Bacteroides caccae,8
+Phocaeicola vulgatus,8
+Bacteroides nordii,8
+Faecalibacterium prausnitzii,8
+Haemophilus parainfluenzae,8
+Human pharynx squamous carcinoma,8
+Bretziella fagacearum,4
+Acidovorax konjaci,4
+Xanthomonas albilineans,4
+Rothia nasimurium,8
+Penicillium thomii,4
+Photobacterium halotolerans,1
+Photobacterium angustum,1
+Enterobacter hormaechei,1
+Keratin-forming cancer cells,7
+Human brain cancer,7

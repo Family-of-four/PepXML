@@ -17,7 +17,6 @@ from sklearn.model_selection import KFold
 import numpy as np
 from Utils import extract_embeddings_in_batches, select_hard_negatives, device
 
-# 预测
 def predict(model, data_loader, device):
     model.eval()
     all_probs = []
@@ -28,7 +27,6 @@ def predict(model, data_loader, device):
             all_probs.append(probs)
     return np.vstack(all_probs)
 
-# Classifier model
 class Classifier(nn.Module):
     def __init__(self, input_dim, n_labels, hidden_dim=256, dropout=0.3):
         super(Classifier, self).__init__()
@@ -46,7 +44,6 @@ class Classifier(nn.Module):
         x = self.fc2(x)
         return x
 
-# 主函数
 def main(args):
     # 遍历标签文件
     for cluster_file in os.listdir(args.cluster_dir):
@@ -70,13 +67,10 @@ def main(args):
             labels = data.iloc[:, 1:].values
             label_names = data.columns[1:]
 
-            # 转换为 ESM-2 需要的格式
             sequences = [(i, seq) for i, seq in enumerate(sequences)]
 
-            # 提取嵌入
             embeddings = extract_embeddings_in_batches(sequences, batch_size=args.batch_size)
 
-            # 转换为张量
             X = torch.tensor(embeddings, dtype=torch.float32).to(device)
             y = torch.tensor(labels, dtype=torch.float32).to(device)
             input_dim = X.shape[1]
@@ -89,19 +83,16 @@ def main(args):
             for fold, (train_idx, test_id) in enumerate(kf.split(X)):
                 logging.info(f"处理簇 {cluster_id}，第 {fold + 1}/{args.n_folds} 折")
 
-                # 创建数据加载器
                 train_dataset = TensorDataset(X[train_idx], y[train_idx])
                 test_dataset = TensorDataset(X[test_id], y[test_id])
                 train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
                 test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False)
 
-                # 初始化模型和损失函数
                 model = Classifier(input_dim=input_dim, n_labels=n_labels, hidden_dim=args.hidden_dim, dropout=args.dropout)
                 criterion = nn.BCEWithLogitsLoss()
                 optimizer = optim.Adam(model.parameters(), lr=args.lr)
                 model.to(device)
 
-                # 训练循环
                 for epoch in range(args.epochs):
                     model.train()
                     total_loss = 0
@@ -185,9 +176,7 @@ if __name__ == "__main__":
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
 
-    # 记录开始时间
     start_time = time.time()
     main(args)
-    # 记录结束时间
     end_time = time.time()
     logging.info(f"总运行时间: {end_time - start_time:.2f} 秒")

@@ -27,7 +27,6 @@ def setup_logging(log_file):
 
 
 def main(args):
-    """主函数，依次调用五个脚本"""
     start_time = time.time()
     logging.info("Starting main.py...")
 

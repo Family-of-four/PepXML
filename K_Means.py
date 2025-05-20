@@ -11,7 +11,6 @@ import pandas as pd
 import time
 
 def main(args):
-    # 读取标签嵌入数据
     logging.info(f"Reading label embeddings from {args.labels_embedding_file}")
     df = pd.read_csv(args.labels_embedding_file)
     labels = df['Label'].values
@@ -19,13 +18,11 @@ def main(args):
     print(f"Label: {len(labels)}, embeddings with shape: {embeddings.shape}")
     logging.info(f"Label: {len(labels)}, embeddings with shape: {embeddings.shape}")
 
-    # 执行K-Means聚类
     logging.info(f"Performing K-Means clustering with k={args.optimal_n}")
     kmeans = KMeans(n_clusters=args.optimal_n, random_state=42)
     cluster_labels = kmeans.fit_predict(embeddings)
     logging.info(f"Clustering completed.")
 
-    # 创建包含标签名称和对应聚类标签的DataFrame
     logging.info("Creating DataFrame for labels and cluster labels")
     labels_cluster_df = pd.DataFrame({
         'Label': labels,

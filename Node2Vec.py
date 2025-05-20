@@ -14,38 +14,20 @@ import warnings
 import time
 import random
 
-# Ignore warnings
 warnings.filterwarnings('ignore')
 
 
 def build_label_co_occurrence_graph(label_matrix_path):
-    """
-    From a peptide-label matrix, build a label co-occurrence graph.
-
-    Parameter:
-    label_matrix_path (str): Path to the peptide-label matrix CSV file.
-
-    Return:
-    networkx.Graph: A graph where nodes are labels and edges represent co-occurrence.
-    """
-    # Read the peptide-label matrix
     df = pd.read_csv(label_matrix_path)
 
-    # Extract labels from the DataFrame
     labels = df.columns[1:].tolist()
 
-    # Create an empty graph
     G = nx.Graph()
 
-    # Add nodes to the graph
     G.add_nodes_from(labels)
 
-    # Iterate through each row in the DataFrame
     for _, row in df.iterrows():
-        # Get the labels present in the current row
         present_labels = [label for label in labels if row[label] == 1]
-
-        # If there are at least two labels present, add edges between them
         for i in range(len(present_labels)):
             for j in range(i + 1, len(present_labels)):
                 G.add_edge(present_labels[i], present_labels[j])
@@ -54,36 +36,18 @@ def build_label_co_occurrence_graph(label_matrix_path):
 
 
 def node2vec_embedding(G, dimensions=100, walk_length=5, num_walks=100, workers=4, seed=42):
-    """
-    Generate Node2Vec embeddings for the labels in the co-occurrence graph.
-
-    Parameters:
-    G (networkx.Graph): Label co-occurrence graph
-    dimensions (int): The number of dimensions for the embedding
-    walk_length (int): The length of each random walk
-    num_walks (int): The number of random walks per node
-    workers (int): The number of parallel workers
-
-    Return:
-    pd.DataFrame: A DataFrame containing the label embeddings
-    """
     if G is None or G.number_of_nodes() == 0:
         raise ValueError("If G is None or G is empty, please check the input graph. ")
-    # Create Node2Vec model
     node2vec = Node2Vec(G, dimensions=dimensions, walk_length=walk_length,
                         num_walks=num_walks, workers=workers)
 
-    # Fit the model
     model = node2vec.fit()
 
-    # Get the embeddings for each label
     embeddings = {}
     for label in G.nodes():
         if label in model.wv:
-            # If the label is in the model, get its embedding
             embeddings[label] = model.wv[label]
         else:
-            # If the label is not in the model, create a zero vector
             embeddings[label] = np.zeros(dimensions)
 
     embedding_df = pd.DataFrame.from_dict(embeddings, orient='index')
@@ -94,7 +58,6 @@ def node2vec_embedding(G, dimensions=100, walk_length=5, num_walks=100, workers=
 
 
 def main(args):
-    # 设置随机种子
     random.seed(args.seed)
     np.random.seed(args.seed)
 
@@ -118,7 +81,6 @@ def main(args):
 
 
 if __name__ == "__main__":
-    # Create a parameter parser
     parser = argparse.ArgumentParser(description="Node2Vec for Label Co-occurrence Graph")
     parser.add_argument('--label_matrix_path', type=str, default='datasets/label_matrix.csv',
                         help='Path to the peptide label matrix CSV file')
@@ -136,7 +98,6 @@ if __name__ == "__main__":
                         help='Random seed for reproducibility')
     parser.add_argument('--log_file', type=str, default='log_file/node2vec.log',
                         help='Path to save the log file')
-    # Parse the arguments
     args = parser.parse_args()
 
     # 配置日志

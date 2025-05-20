@@ -21,7 +21,6 @@ def merge_predictions(args):
         label_matrix_file (str): 原始标签矩阵文件路径
         output_path (str): 合并预测结果输出路径
     """
-    # 读取原始标签矩阵，获取所有多肽和标签
     try:
         label_df = pd.read_csv(args.label_matrix_file)
         if 'Sequences' not in label_df.columns:
@@ -30,16 +29,13 @@ def merge_predictions(args):
         logging.error(f"读取 {args.label_matrix_file} 失败: {str(e)}")
         return
 
-    # 获取所有多肽和标签
     all_sequences = label_df['Sequences'].unique()
     label_cols = [col for col in label_df.columns if col != 'Sequences']
 
-    # 初始化合并结果 DataFrame
     merged_df = pd.DataFrame({'Sequences': all_sequences})
     for label_col in label_cols:
         merged_df[label_col] = 0.0  # 默认预测概率为 0
 
-    # 收集所有预测
     prediction_files = [f for f in os.listdir(args.prediction_dir) if
                         f.startswith("cluster_") and f.endswith("_predictions.csv")]
     if not prediction_files:
@@ -59,13 +55,11 @@ def merge_predictions(args):
             logging.error(f"读取 {pred_path} 失败: {str(e)}")
             continue
 
-        # 提取预测列（仅保留 label_cols 中存在的列）
         pred_cols = [col for col in pred_df.columns if col in label_cols]
         if not pred_cols:
             logging.warning(f"警告: {pred_path} 无有效预测列，跳过")
             continue
 
-        # 检查标签互补性
         if processed_labels & set(pred_cols):
             logging.warning(f"警告: {pred_path} 包含已处理的标签 {processed_labels & set(pred_cols)}，可能违反标签互补性")
         processed_labels.update(pred_cols)
@@ -81,7 +75,6 @@ def merge_predictions(args):
         else:
             logging.warning(f"警告: {pred_path} 为空文件，跳过")
 
-    # 验证标签覆盖
     missing_labels = set(label_cols) - processed_labels
     if missing_labels:
         logging.warning(f"警告: 以下标签未在任何预测文件中出现: {missing_labels}")

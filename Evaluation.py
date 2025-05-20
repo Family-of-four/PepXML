@@ -24,16 +24,12 @@ def p_at_k(y_true, y_score, k):
     Returns:
         torch.Tensor: 精确率
     """
-    # 获取前k个最高分预测的索引
     _, top_k_indices = torch.topk(y_score, k)
 
-    # 选择这些索引对应的真实标签
     top_k_true = torch.gather(y_true, 0, top_k_indices)
 
-    # 计算正类数量
     num_positive = torch.sum(top_k_true)
 
-    # 计算精确率
     precision = num_positive / k
 
     return precision
@@ -66,10 +62,8 @@ def ndcg_at_k(y_true, y_score, k):
     Returns:
         torch.Tensor: nDCG@k 值
     """
-    # 获取前k个最高分预测的索引
     _, top_k_indices = torch.topk(y_score, k)
 
-    # 选择这些索引对应的真实标签
     top_k_true = torch.gather(y_true, 0, top_k_indices)
 
     # 计算DCG
@@ -80,7 +74,6 @@ def ndcg_at_k(y_true, y_score, k):
     sorted_true, _ = torch.sort(y_true, descending=True)
     idcg = torch.sum(sorted_true[:k] / discounts)
 
-    # 避免除零
     if idcg == 0:
         return torch.tensor(0.0, device=y_true.device)
 
@@ -112,7 +105,6 @@ def evaluate_predictions(args):
         ks (list): 要计算的k值列表
         output_path (str): 评估结果输出文件路径
     """
-    # 读取预测和真实标签文件
     if args.ks is None:
         args.ks = [1, 3, 5]
     try:
@@ -124,27 +116,22 @@ def evaluate_predictions(args):
         logging.error(f"读取文件失败: {str(e)}")
         return
 
-    # 确保序列一致
     common_sequences = pred_df['Sequences'].isin(true_df['Sequences'])
     pred_df = pred_df[common_sequences].reset_index(drop=True)
     true_df = true_df[true_df['Sequences'].isin(pred_df['Sequences'])].reset_index(drop=True)
 
-    # 确保序列顺序一致
     pred_df = pred_df.sort_values('Sequences').reset_index(drop=True)
     true_df = true_df.sort_values('Sequences').reset_index(drop=True)
 
-    # 提取标签列
     label_cols = [col for col in true_df.columns if col != 'Sequences']
     pred_cols = [col for col in pred_df.columns if col != 'Sequences']
 
-    # 验证标签列一致性
     if set(label_cols) != set(pred_cols):
         logging.warning(f"警告: 预测和真实标签的列不一致")
         logging.info(f"真实标签: {set(label_cols)}")
         logging.info(f"预测标签: {set(pred_cols)}")
         return
 
-    # 转换为张量
     device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
     y_true = torch.tensor(true_df[label_cols].values, dtype=torch.float32, device=device)
     y_score = torch.tensor(pred_df[label_cols].values, dtype=torch.float32, device=device)
